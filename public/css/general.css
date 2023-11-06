@@ -1,0 +1,29 @@
+:root {
+    --colorAmarillo : #EAC926;
+    --colorAzul : #1259c3;
+    --colorBlanco : #ffffff;
+    --colorRojo:#e74c3c;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: 'lato';
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #c0c0c0;
+}
+

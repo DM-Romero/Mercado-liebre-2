@@ -1,0 +1,145 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.home_main_banner{
+    width: 100%;
+
+}
+
+
+.home__main__section{
+    width: 100%;
+    padding: 20px;
+}
+
+h2{
+    color: #5c5c5c;
+    margin: 10px;
+}
+
+.home__main__section__article{
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+
+}
+
+.home__main__section__article img{
+    width: 100%;
+}
+
+.camion{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.montos{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    text-transform: lowercase;
+}
+
+.home__main__section__article p{
+    line-height: 1.3rem;
+    text-align: center;
+    margin: 5px;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+
+
+
+.productos {
+    margin: 20px;
+}
+
+.productos h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.producto {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10 auto;
+    text-align: center;
+    display:block;
+    width: 100%;
+}
+
+.producto img {
+    width: 70%;
+    height: auto;
+}
+
+main section article i{
+    display: flex;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    right: 20px;
+    top: -15px;
+    color:#39b54a;
+}
+
+
+
+.precio {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.descuento {
+    font-size: 16px;
+    color: #08912a;
+}
+
+.nombre {
+    font-size: 16px;
+    color: #666;
+}
+
+  /*Tablet*/
+
+@media (min-width: 768px){
+    
+
+    .home__main__section__bloques {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .home__main__section__article {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 1024px){
+    .home__main__section__bloques {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .home__main__section__article {
+        width: 24%;
+    }
+}
