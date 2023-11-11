@@ -44,6 +44,14 @@ body {
     border-radius: 5px;
 }
 
+.box__card--simple {
+    max-width: 320px;
+}
+
+.box__card--double {
+    max-width: 768px;
+}
+
 .box__card--title {
     margin-bottom: 30px;
     text-align: start;

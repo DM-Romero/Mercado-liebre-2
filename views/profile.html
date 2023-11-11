@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercado liebre | Register</title>
+    <title>Mercado liebre | Profile</title>
     <link rel="stylesheet" href="/css/styles.css">
     <script src="https://kit.fontawesome.com/6d097c18fe.js" crossorigin="anonymous"></script>
 </head>
@@ -77,6 +77,35 @@
             <div class="form__box--col50">
                 <label class="form__label" for="address">Domicilio</label>
                 <input class="form__input" id="address" type="text" value="" name="address" placeholder="Calle y altura">
+            </div><div class="form__box--col50">
+                <label class="form__label" for="city">Ciudad</label>
+                <select class="form__input" name="city" id="city">
+                    <option value="" selected hidden>
+                        Seleccione...
+                    </option>
+                    <option value="san miguel">San Miguel</option>
+                    <option value="lanus">Lanus</option>
+                    <option value="jose c paz">José C. Paz</option>
+                    <option value="merlo">Merlo</option>
+                    <option value="la plata">La Plata</option>
+                    <option value="gral pinedo">General Pinedo</option>
+                    <option value="quilmes">Quilmes</option>
+                    <option value="cordoba">Córdoba</option>
+                    <option value="san Nicolas">San Nicolas de los Arroyos</option>
+                    <option value="la banda">La Banda</option>
+                </select>
+            </div>
+            <div class="form__box--col50">
+                <label class="form__label" for="province">Provincia</label>
+                <select class="form__input" name="province" id="province">
+                    <option value="" selected hidden>
+                        Seleccione...
+                    </option>
+                    <option value="buenos aires">Buenos Aires</option>
+                    <option value="chaco">Chaco</option>
+                    <option value="cordoba">Córdoba</option>
+                    <option value="santiago">Santiago del Estero</option>
+                </select>
             </div>
             <div class="form__box--col50">
                 <label for="avatar" class="form__label">Imagen del perfil</label>
