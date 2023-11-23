@@ -3,6 +3,8 @@ footer {
     color: rgb(20, 1, 1);
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .contacto{
@@ -34,4 +36,16 @@ footer p {
 footer i{
     font-size: 2em;
     margin-bottom: 10px;
+}
+
+@media(min-width: 769px){
+    .footer-div{
+        display: flex;
+        align-content: space-between;
+    }
+
+    .copyright{
+        display: flex;
+        justify-content: center;
+    }
 }
